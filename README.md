@@ -5,17 +5,17 @@ Overview
 This project uses image processing and machine learning in MATLAB to automatically classify fish images into fresh, moderate, or spoiled categories. It features a simple GUI for training and testing the model without coding knowledge.
 
 Features
-	•	GUI-based Interface – Users can select actions from buttons:
-	1.	Train Model – Train a classification model on labeled fish images.
-	2.	Predict Single Image – Load an image and predict its freshness category.
-	3.	Exit – Close the application.
-	•	Image Feature Extraction – Extracts relevant visual features from fish images (color, texture, etc.).
-	•	Machine Learning Classifier – Trains a model using the extracted features and user-labeled datasets.
-	•	Prediction Output – Displays predicted freshness with confidence.
+	1.	GUI-based Interface – Users can select actions from buttons:
+	2.	Train Model – Train a classification model on labeled fish images.
+	3.	Predict Single Image – Load an image and predict its freshness category.
+	4.	Exit – Close the application.
+	5.	Image Feature Extraction – Extracts relevant visual features from fish images (color, texture, etc.).
+	6.	Machine Learning Classifier – Trains a model using the extracted features and user-labeled datasets.
+	7.	Prediction Output – Displays predicted freshness with confidence.
 
 How It Works
 	1.	Start the Application
-Run the fishFreshnessML() function in MATLAB. The GUI window will appear.
+        Run the fishFreshnessML() function in MATLAB. The GUI window will appear.
 	2.	Training the Model
 	•	Choose the Train Model button.
 	•	Select a folder containing three subfolders:
